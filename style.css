@@ -1,0 +1,54 @@
+.abc{
+    text-align: center;
+}
+#frontwheel{
+    animation: rotation 1s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes rotation{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
+#backwheel{
+    animation: rotation 1s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes rotation{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
+#bg{
+    animation: something 1s linear infinite;
+    transform-box: fill-box;
+    transform-origin:center ;
+}
+@keyframes something{
+    from{
+        transform: translate(20px);
+    }
+    to{
+        transform: translate(-200px);
+    }
+}
+#biker{
+    animation: upndown 2s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+@keyframes upndown{
+    form{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(20deg);
+    }
+}
